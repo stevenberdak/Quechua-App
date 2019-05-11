@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Quechua Translation App",
+  "name": "Translate to and from Quechua",
   "icons": [
     {
       "src": "favicon.ico",
