@@ -2,6 +2,11 @@
   --peru-red: #D91023;
   --peru-yellow: #FCD116;
   --peru-blue: #007EA8;
+  --seashell: seashell;
+  --black: #363636;
+  --contained-width: 40em;
+  --contained-max-width: 95vw;
+  --nav-height: 6em;
 }
 
 #app {
@@ -12,7 +17,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 #nav-bar-top {
@@ -20,83 +25,17 @@
   z-index: 9999;
 }
 
-#nav-bar-top-inner {
-  width: 100%;
-  padding: 1em;
-  text-align: center;
-}
-
-#nav-bar-top-inner h1 {
-  display: inline-block;
-}
-
-#nav-bar {
+#nav-bar-container {
   position: fixed;
   z-index: 9999;
   top: 0;
   left: 0;
   width: 100%;
-  background: seashell;
+  height: var(--nav-height);
+  background: var(--seashell);
   box-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.30);
 }
 
-#nav-bar-inner {
-  margin: 0.5em auto;
-  width: 100%;
-  max-width: 1200px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-#peru-coat-of-arms {
-  width: auto;
-  height: 3em;
-  margin-left: 1em;
-  margin-right: 3em;
-}
-
-#search-bar-outer {
-  flex-grow: 1;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin-right: 1em;
-}
-
-#search-bar {
-  width: 100%;
-  max-width: 50em;
-}
-
-#search-bar.ui.input {
-  color: var(--peru-blue)
-}
-
-#search-input {
-  border-radius: 3em;
-  box-shadow: inset 0px 1px 2px 0px rgb(0, 0, 0, 0.30);
-}
-
-#content-outer {
-  margin-top: 15em;
-}
-
-#results-list {
-  
-}
-
-.results-list {
-  animation: results-list-in 2s;
-}
-
-@keyframes results-list-in {
-  from {
-    padding-top: 3em;
-  }
-
-  to {
-    padding-top: 0;
-  }
+#content-container {
+  margin-top: 6em;
 }

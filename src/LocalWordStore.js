@@ -1,11 +1,11 @@
-const data = [
+export const data = [
 		{
 			"quechua": "Allin punchay",
 			"english": "Good morning",
 		},
 		{
 			"quechua": "Pakarinkama",
-			"english": "Good night",
+			"english": "Till tomorrow",
 		},
 		{
 			"quechua": "Allillanchu",
@@ -91,58 +91,44 @@ const data = [
 			"quechua": "Allillamanta",
 			"english": "Slowly please",
 		},
+		{
+			"quechua": "Wawa",
+			"english": "Mother's child; infant",
+		},
+		{
+			"quechua": "Wawakuna",
+			"english": "Mother's child; infant (plural)",
+		},
+		{
+			"quechua": "Amauta",
+			"english": "Master or 'wise-one', also word for teacher",
+		},
+		{
+			"quechua": "Mikhuna",
+			"english": "Food; any substance consumed by living organisms to sustain life; any substance consumed to provide nutritional support for the body; form of energy stored in chemical form",
+		},
+		{
+			"quechua": "Temmpu wasi",
+			"english": "Hotel; establishment that provides lodging paid on a short-term basis",
+		},
+		{
+			"quechua": "Wakichi",
+			"english": "Computer program",
+		},
+		{
+			"quechua": "Mama",
+			"english": "Mother",
+		},
+		{
+			"quechua": "Imaynallám kashanki?",
+			"english": "How are you?",
+		},
+		{
+			"quechua": "Allin Tuta",
+			"english": "Good Night",
+		},
+		{
+			"quechua": "Chhallpuku",
+			"english": "Bathroom; A room with a bathtub",
+		}
 ];
-
-export { data };
-
-		// {
-		// 	"quechua": "wasi",
-		// 	"english": "house",
-		// 	"meta": {
-		// 		"image": {
-		// 			"type": "FONT_AWESOME_ICON",
-		// 			"value": "home"
-		// 		}
-		// 	}
-		// },
-		// {	
-		// 	"quechua": "shuk",
-		// 	"english": "one",
-		// 	"meta": {
-		// 		"image": {
-		// 			"type": "NUMBER",
-		// 			"value": "1"
-		// 		}
-		// 	}
-		// },
-		// {	
-		// 	"quechua": "ishkay",
-		// 	"english": "two",
-		// 	"meta": {
-		// 		"image": {
-		// 			"type": "NUMBER",
-		// 			"value": "2"
-		// 		}
-		// 	}
-		// },
-		// {	
-		// 	"quechua": "chunka",
-		// 	"english": "ten",
-		// 	"meta": {
-		// 		"image": {
-		// 			"type": "NUMBER",
-		// 			"value": "10"
-		// 		}
-		// 	}
-		// },
-		// {	
-		// 	"quechua": "awmi",
-		// 	"english": "yes",
-		// 	"meta": {
-		// 		"image": {
-		// 			"type": "",
-		// 			"value": ""
-		// 		}
-		// 	}
-		// }
-		// 	
